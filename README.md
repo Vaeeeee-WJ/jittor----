@@ -20,7 +20,7 @@
 
 ## 安装
 
-本项目可在一张NVIDIA\ GeForce\ RTX\ 3090上运行
+本项目可在一张NVIDIA GeForce RTX 3090上运行
 
 #### 运行环境
 
@@ -67,7 +67,7 @@ pip install -r requirements.txt
 > - 2024/5/11：微调学习率，训练200个epoch，最终在TestSetZ的准确率为：0.7220，TestSetA上的准确率为0.6772；
 > - 2024/5/11：微调学习率，训练250个epoch，最终在TestSetZ的准确率为：0.7243，TestSetA上的准确率为0.6769；
 
-#### 2️⃣Linear\ Probe
+#### 2️⃣Linear Probe
 
 - 冻住主干，仅微调一个线性分类器，经过测试发现，该方法效果并不好。
 
@@ -76,7 +76,7 @@ pip install -r requirements.txt
 - 主要利用了测试图像和训练集图像之间的相似度关系。
   ![cache](/image/README/cache_model.png)
 
-#### 4️⃣Cross-modal\;Adaptation
+#### 4️⃣Cross-modal-Adaptation
 
 - 将多种模态的信息融合在一起，即将每张图像的图像特征和文本特征视作同一个特征来进行训练。
 
