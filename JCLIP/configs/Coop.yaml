@@ -1,0 +1,8 @@
+pretrain_path   : F:\jittor_comprtition\Competition1\Weights\initial_weight\ViT-B-32.pkl
+epoches         : 300
+augmentation    : True
+ckt_gap         : 10
+learning_rate   : !!float 1e-5
+optimizer       : AdamW
+scheduler       : StepLR
+batch_size      : 1   

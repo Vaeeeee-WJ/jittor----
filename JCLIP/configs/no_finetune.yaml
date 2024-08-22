@@ -1,0 +1,8 @@
+pretrain_path   : E:\Competition1\Weights\initial_weight\ViT-B-32.pkl
+epoches         : 50
+augmentation    : True
+ckt_gap         : 5
+learning_rate   : !!float 2e-6
+optimizer       : AdamW  
+scheduler       : ReduceLROnPlateau
+batch_size      : 374    

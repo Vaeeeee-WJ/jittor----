@@ -1,0 +1,7 @@
+pretrain_path   : E:\Competition1\Weights\CLIP-0820.pkl
+augmentation    : True
+epoches         : 50
+ckt_gap         : 5
+learning_rate   : !!float 1e-6
+optimizer       : AdamW
+batch_size      : 374   
