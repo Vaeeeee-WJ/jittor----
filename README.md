@@ -139,6 +139,10 @@ pip install -r requirements.txt
 - 如果要使用其他方法更改设置`method_name`的值即可。
 
 
+## 团队成员
+- [Vaeeeee-WJ](https://github.com/Vaeeeee-WJ/)
+- [ILayXia](https://github.com/ILayXia) 
+
 ## 引用
 
 **Tip-Adapter: Training-free CLIP-Adapter for Better Vision-Language Modeling**
